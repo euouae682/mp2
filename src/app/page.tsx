@@ -1,7 +1,4 @@
 import Link from "next/link";
-import { useState } from "react";
-
-export const routes: string[] = ["grca", "acad", "yell", "yose", "zion", "rock", "jotr", "glac"];
 
 export default function Home() {
   return (
