@@ -31,7 +31,7 @@ export default function Slide(props: SlideProps) {
     const [isCorrect, setIsCorrect] = useState(-1);
 
     return (
-        <div className="pt-40">
+        <div className="py-40">
             <div className="flex w-3/4 m-auto mb-8 gap-4">
                 <div className="text-center">
                     <Image src={props.img1} width={650} height={400} alt="Image 1" className="cursor-pointer hover:opacity-80 transition-all rounded-3xl" onClick={() => onClickImg(0)} />
