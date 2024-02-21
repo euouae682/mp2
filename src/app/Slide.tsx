@@ -32,7 +32,7 @@ export default function Slide(props: SlideProps) {
 
     return (
         <div className="pt-40">
-            <div className="flex w-3/4 m-auto mb-8">
+            <div className="flex w-3/4 m-auto mb-8 gap-4">
                 <div className="text-center">
                     <Image src={props.img1} width={650} height={400} alt="Image 1" className="cursor-pointer hover:opacity-80 transition-all rounded-3xl" onClick={() => onClickImg(0)} />
                     <p className="text-gray-500">{ isCorrect !== -1 && props.img1credit }</p>
